@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="mt-8 mb-80 min-w-dvw min-h-dvh">
+      <div className="mt-8 mb-80 min-w-dvw min-h-dvh text-stone-900">
         <h1 className="text-9xl mb-24 font-sarina text-stone-900 max-w-lg">
           About the Ramble
         </h1>

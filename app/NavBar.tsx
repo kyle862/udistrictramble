@@ -4,7 +4,7 @@ export default function NavBar() {
       <ul className="flex flex-col">
         <li className="flex">
           <a
-            className="flex-1 px-4 py-2 hover:cursor-pointer hover:bg-stone-400"
+            className="flex-1 px-4 py-2 text-stone-900 hover:cursor-pointer hover:bg-stone-400 active:bg-stone-600 active:text-stone-300"
             href="./"
           >
             University District Ramble
@@ -12,7 +12,7 @@ export default function NavBar() {
         </li>
         <li className="flex">
           <a
-            className="flex-1 px-4 py-2 hover:cursor-pointer hover:bg-stone-400 "
+            className="flex-1 px-4 py-2 text-stone-900 hover:cursor-pointer hover:bg-stone-400 active:bg-stone-600 active:text-stone-300 "
             href="./about"
           >
             About
