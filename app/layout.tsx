@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex relative ml-56">
+      <body className="flex relative ml-56 text-stone-900">
         <NavBar />
         <div className="py-4 px-12 bg-stone-600">{children}</div>
       </body>
